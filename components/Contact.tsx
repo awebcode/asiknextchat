@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
 import { buttonTapAnimation } from "@/constants/animations";
-const About = () => {
+const Contact = () => {
   return (
     <div className="py-20 px-4 dark:gradient-radial">
       <div className="container px-2 lg:px-12 flex justify-between items-center relative">
@@ -17,9 +17,7 @@ const About = () => {
             }}
             className="flex  flex-col gap-4 p-2 lg:p-6 lg:px-10"
           >
-            <motion.h1 className="text-5xl lg:text-8xl font-bold">
-              About
-            </motion.h1>
+            <motion.h1 className="text-5xl lg:text-8xl font-bold">Contact Us</motion.h1>
             <motion.p className="text-sm leading-6 text-zinc-900 dark:text-zinc-100 tracking-wider">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repellendus
               expedita culpa cum voluptatem repudiandae natus, praesentium consequuntur
@@ -59,4 +57,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Contact;
